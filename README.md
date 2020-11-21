@@ -111,6 +111,7 @@ If you are interested in this topic, consider to read the following papers and t
 * [Software A](https://github.com/lakiw/pcfg_cracker), [Software B](https://sites.google.com/site/reusablesec/Home/password-cracking-tools/probablistic_cracker)
 
 **Markov Models**
+
 * Fast Dictionary Attacks on Passwords Using Time-Space Tradeoff (CCS '05)
 * OMEN+: When Privacy meets Security: Leveraging personal information for password cracking (CoRR '13)
 * A Study of Probabilistic Password Models (SP '14)
@@ -141,13 +142,7 @@ If you are interested in this topic, consider to read the following papers and t
 
 ### Advanced Usage
 
-Both modules provide several command line arguments to select the various
-modes available and change the default settings. For instance, the probability
-distribution created during the `createNG` process may be manipulated by
-choosing one of the supported smoothing functions, the n-gram size, or the used
-alphabet. All available parameters for `createNG`, a short description, and the default values can be seen by calling the program with `-h` or `--help`. The same works for `enumNG` where for instance, the enumeration mode, the used length scheduling algorithm (only used in `-s` mode, see '*Basic Usage*' section), and the maximum amount of attempts can be selected. If no enumeration mode is given, the
-default mode is executed, storing all created passwords in a text file in the
-'*results*' folder.
+Both modules provide several command line arguments to select the various modes available and change the default settings. For instance, the probability distribution created during the `createNG` process may be manipulated by choosing one of the supported smoothing functions, the n-gram size, or the used alphabet. All available parameters for `createNG`, a short description, and the default values can be seen by calling the program with `-h` or `--help`. The same works for `enumNG` where for instance, the enumeration mode, the used length scheduling algorithm (only used in `-s` mode, see '*Basic Usage*' section), and the maximum amount of attempts can be selected. If no enumeration mode is given, the default mode is executed, storing all created passwords in a text file in the '*results*' folder.
 
 OMEN+
 -----
